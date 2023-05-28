@@ -12,7 +12,8 @@ from IPython.display import clear_output
 # In[2]:
 
 
-jobs = pd.read_csv('Combined_Jobs_Final.csv')
+# jobs = pd.read_csv('Combined_Jobs_Final.csv')
+jobs = pd.read_csv('modified.csv')
 experience = pd.read_csv('Experience.csv')
 job_view = pd.read_csv('Job_Views.csv')
 position = pd.read_csv('Positions_Of_Interest.csv')
